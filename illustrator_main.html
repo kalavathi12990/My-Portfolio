@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Themify Icons -->
+  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+  <!-- Meyawo main styles -->
+  <link rel="stylesheet" href="assets/css/meyawo.css">
+
+  <style>
+    .service-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .icon {
+      display: block;
+      margin: auto;
+    }
+
+    .title {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="row g-4"> <!-- ✅ Row wrapper -->
+
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="body">
+            <img src="img/flyer-icon.png" height="200px" width="200px" class="icon">
+            <a href="illustrator_pro1.html">
+              <h2 class="title">FLYERS</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="body">
+            <img src="img/persona-icon.png" height="200px" width="200px" class="icon">
+            <a href="illustrator_pro2.html">
+              <h2 class="title">PERSONA-ICONS</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="service-card">
+          <div class="body">
+            <img src="img/stationary-icon.png" height="200px" width="200px" class="icon">
+            <a href="illustrator_pro3.html">
+              <h2 class="title">STATIONARY</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End Row -->
+  </div> <!-- End Container -->
+</body>
+</html>
